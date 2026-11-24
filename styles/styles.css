@@ -1,0 +1,99 @@
+/* 
+Carrying on from the index page (if read first), I want to have the down to earth nature vibe mixed with modernity. Having natural greens 
+browns I believe conveys this notion subconciously, amking the website viewer even feel relaxed as if they are at the hotel itself as 
+green invites feelings of nature and calmness.
+*/
+header, nav, main, footer { display: block; }
+body { background-color: #0E260B;
+       font-family: sans-serif;
+}
+#wrapper { width: 1200px;
+           margin: auto;
+		   background-color: #AB7E4C;
+		   color: #0E260B;
+		   box-shadow: 5px 5px 5px #000000;
+}
+
+h1 { background-image: url(images/logo.gif);
+     background-repeat: no-repeat;
+     background-color: #4CBB17;
+	 height: 110px;
+	 font-family: sans-serif;
+	 font-size: 4.5em;
+     padding-left: 220px;
+	 padding-top: 20px;
+	 text-shadow: 3px 3px 3px #006400;
+	 margin-bottom: 0;
+}
+nav { padding-top: 10px;
+      float: left;
+      width: 200px; 
+}
+nav ul { list-style-type: disc; 
+	   color: #65350F;
+       padding-left: 20px;
+	 }
+nav li { padding-bottom: 5px;
+       font-weight: bold;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #65350F; }
+nav a:visited{ color: #4A2511; }
+nav a:hover { color: #CD9777; }
+
+
+main { background-color: #D6FFC1;
+          margin-left: 200px;
+          padding: 1px 20px 20px 20px;   
+		  min-height: 300px;
+		  color: #0E260B;
+}
+
+main::after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+img#index { 
+              margin: 20px;
+			  border: solid 4px #0E260B;
+}
+
+img#r1, img#r2, img#event {
+	border: solid 4px #0E260B;
+	float: right;
+	margin: 10px;
+}
+
+footer { background-color: #4CBB17;
+       margin-left: 200px;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+
+fieldset { color: #0E260B;
+	border: solid 2px #0E260B;
+	display: block;
+}
+
+fieldset > input[type="radio"] {
+	list-style-type: none;
+	display: block;
+}
+
+
+input[type="submit"] {
+   font-size: 1.2em;
+   display: block;
+}
+
+div {
+	display: inline-block;
+}
+
+div > label {
+	display: block;
+}

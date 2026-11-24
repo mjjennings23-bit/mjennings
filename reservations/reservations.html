@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="reservation" content="reservation page where the user inserts their desired lodging information">
+<title>Garden Suites - Booking</title>
+<link href="../styles/styles.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="wrapper">
+  <header>
+      <h1>Garden Suites Booking</h1>
+  </header>
+  <nav>
+  <ul> 
+    <li><a href="../index.html">Home</a></li>
+	<li><a href="../rooms/home_garden_suite.html">Home Garden Suite</a></li>
+	<li><a href="../rooms/exotic_planter_suite.html">Exotic Planter Suite</a></li>
+	<li><a href="../events/hosted_events.html">Hosted Events</a></li>
+	<li><a href="../contact.html">Contact</a></li>
+	<li><a href="../reservations/reservations.html">Booking</a></li>
+  </ul>
+  </nav>
+  <main>
+  <h2>Book Your Stay Here </h2>
+  <fieldset id="reservationinfo">
+  <div>
+  <label for="resname">Full Name*</label>
+         <input id="resname" name="reservationname" type="text" required >
+	</div>
+	<div>
+	<label for="resmail">E-Mail*</label>
+         <input id="resmail" name="reservationemail" type="email" required >
+	</div>
+	<div>
+	<label for="resphone">Phone Number*</label>
+         <input id="resphone" name="reservationphonenumber" type="text" placeholder="(###) ###-####" required >
+	</div>
+	<fieldset id="roomselect">
+	<legend>Select Your Suite Type*</legend>
+	<table>
+	<tbody>
+	<tr>
+	<td colspan="2">
+                  <input type="radio" name="room1" value="" id="hgsuite" >
+			   <label for="hgsuite">Home Garden Suite</label>
+	</td>
+	<td colspan="2">
+                  <input type="radio" name="room2" value="" id="epsuite" >
+			   <label for="epsuite">Exotic Planter Suite</label>
+	</td>
+	</tr>
+	</tbody>
+	</table>
+	</fieldset>
+	<div>
+	<label for="checkin">Check-In Day*</label>
+         <input id="checkin" name="checkinday" type="text" placeholder="MM/DD/YYYY" required >
+	</div>
+	<div>
+	<label for="checkout">Check-Out Day*</label>
+         <input id="checkout" name="checkoutday" type="text" placeholder="MM/DD/YYYY" required >
+	</div>
+	<p id="checkinginfo">Check-out time: 7:00am-12:00pm</p>
+	<fieldset id="extraselect">
+	<legend>Extra Accomodations</legend>
+	<table>
+	<tbody>
+		<tr>
+		<td colspan="2">
+                  <input type="radio" name="dissability" value="" id="extras1" />
+			   <label for="extras1">Accessability Options</label>
+		</td>
+		<td colspan="2">
+					<input type="radio" name="mealplan" value="" id="extras2" />
+			   <label for="extras2">Hand-Painted Tapestry; $240</label>
+		</td>
+		</tr>
+		<tr>
+		<td colspan="2">
+					<input type="radio" name="mealplan" value="" id="extras3" />
+			   <label for="extras3">House-Served Meal Plan; $25 per person</label>
+		</td>
+		<td colspan="2">
+					<input type="radio" name="giftbag" value="" id="extras4" />
+			   <label for="extras4">Take-Home Gift Bag; $20</label>
+		</td>
+		</tr>
+		</tbody>
+	</table>
+	</fieldset>
+	<input type="submit" value="Book Now!" />
+	</fieldset>
+	<table> 
+	<tbody>
+	<caption>Ammenity Listings</caption>
+	<tr>
+		<th colspan="2">Ammenity</th>
+		<th colspan="2">Details</th>
+	</tr>
+	<tr>
+		<td colspan="2">Accessability Options</td>
+		<td colspan="2">Reserves a wheelchair-friendly room and offers all-inclusive perks free of charge</td>
+	</tr>
+	<tr>
+		<td colspan="2">Hand-Painted Tapestry; $240</td>
+		<td colspan="2">Gives the opportunity to purchase a painting of some of the beautiful flora we hve here at The Garden Suites</td>
+	</tr>
+	<tr>
+		<td colspan="2">House-Served Meal Plan; $25 per person</td>
+		<td colspan="2">Serves up to one person with a meal time of their choice as well as a dish from our handcrafted menu</td>
+	</tr>
+	<tr>
+		<td colspan="2">Take-Home Gift Bag; $20</td>
+		<td colspan="2">Currated gift bag containing a framed photograph of your stay with us (if chosen), a Garden Suites keychain, personalized small planter + seeds, and a farewell package of small curated treats.</td>
+	</tr>
+	</table>
+	</tbody>
+  </main>
+  <footer>
+  Copyright &copy; 2026 WebMaster <br>
+  <a href="mailto:mjjennings23@amarillocollege.com">Matthew Jennings</a>
+  </footer>
+</div>
+</body>
+</html>
